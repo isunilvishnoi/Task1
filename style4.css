@@ -1,0 +1,148 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background: #f4f7fa;
+  color: #333;
+}
+
+header {
+  background: #0b2545;
+  color: #fff;
+  padding: 20px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo span {
+  color: #00ffff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #00ffff;
+}
+
+/* Sections */
+section {
+  padding: 60px 40px;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #e9f1f7;
+}
+
+.home-content {
+  max-width: 600px;
+}
+
+.home h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.home h3 {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background: #007bff;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.profile-img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+/* About */
+.about ul {
+  margin-top: 20px;
+  line-height: 1.8;
+}
+
+/* Projects */
+.project-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-top: 30px;
+}
+
+.project-card {
+  background: white;
+  padding: 20px;
+  border-left: 4px solid #007bff;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Skills */
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.skill-tags span {
+  background: #007bff;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+}
+
+/* Contact */
+.contact .socials {
+  margin-top: 15px;
+}
+
+.contact a {
+  margin-right: 15px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #0b2545;
+  color: white;
+}
